@@ -1,0 +1,49 @@
+@font-face {
+    font-display: swap;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-style: normal;
+    src: url("Roboto-Bold.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-style: normal;
+    src: url("Roboto-Medium.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-style: normal;
+    src: url("Roboto-Regular.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-family: "OpenSans";
+    font-weight: 700;
+    font-style: normal;
+    src: url("OpenSans-Bold.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-family: "OpenSans";
+    font-weight: normal;
+    font-style: normal;
+    src: url("OpenSans-Regular.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-family: "Anastasia Script";
+    font-weight: normal;
+    font-style: normal;
+    src: url("file.woff2") format("woff2");
+}
+@font-face {
+    font-display: swap;
+    font-family: "Calligraphia";
+    font-weight: normal;
+    font-style: normal;
+    src: url("Calligraphia-One.ttf") format("ttf");
+}

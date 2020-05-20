@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ася Вертен. Официальный сайт.</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/swiper.min.js"></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+<header class="header">
+  <div class="heading">
+    <a href="#" class="heading__link">Новости</a>
+    <a href="pages/contacts.html" class="heading__link">Контакты</a>
+    <a href="pages/contacts.html" class="heading__link">Вопрос-ответ</a>
+  </div>
+  <!-- /.heading -->
+  <div class="heading-box">
+    <div class="container">
+      <div class="header-nav">
+        <a class="logo-block" href="index.html">
+          <h1 class="logo-block__logo">АСЯ ВЕРТЕН</h1>
+          <p class="logo-block__subtitle">Рисую кружевом мечту...</p>
+        </a>
+        <div class="header-nav-box">
+          <button class="header-nav-box__login header-nav-box__login-desktop">Войти</button>
+          <button class="header-nav-box__menu-brg"><span class="brg"></span></button>
+          <nav class="header-nav-box__menu">
+            <ul class="header-nav-box__menu-ul">
+              <li><a href="index.html" class="header-nav-box__link">Главная</a></li>
+              <li class="hover-links"><a href="#" class="header-nav-box__link">Модели</a>
+                <ul class="header-nav-box__link_sub-links">
+                  <li><a href="pages/models.html" class="header-nav-box__link_sub-link">Модели в технике ИК</a></li>
+                  <li><a href="" class="header-nav-box__link_sub-link">Малые формы (мотивы) ИК</a></li>
+                </ul>
+              </li>
+              <li class="hover-links"><a href="#" class="header-nav-box__link">Мастер-классы</a>
+                <ul class="header-nav-box__link_sub-links">
+                  <li><a href="#" class="header-nav-box__link_sub-link">Комплекты МК на модели</a></li>
+                  <li><a href="#" class="header-nav-box__link_sub-link">МК на мотивы</a></li>
+                  <li><a href="#" class="header-nav-box__link_sub-link">Бесплатные МК</a></li>
+                </ul>
+              </li>
+              <li><a href="pages/books.html" class="header-nav-box__link">Книги</a></li>
+              <li class="hover-links"><a href="#" class="header-nav-box__link">Больше</a>
+                <ul class="header-nav-box__link_sub-links">
+                  <li><a href="#" class="header-nav-box__link_sub-link">Видео</a></li>
+                  <li><a href="pages/contacts.html" class="header-nav-box__link_sub-link">Контакты</a></li>
+                </ul>
+              </li>
+            </ul>
+            <button class="header-nav-box__login header-nav-box__login-mobile">Войти</button>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.heading-box -->
+</header>
+<main class="main">
+  <div class="container">
+    <div class="slider">
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="slide-text">
+              <h3 class="slide-text__title">"Звезда Адама"</h3>
+              <div class="slide-text__border"></div>
+              <p class="slide-text__price">Цена мастер-класса от <span class="price-num">5€</span></p>
+              <p class="slide-text__commnet">Создайте свою кружевную&nbsp;мечту!</p>
+              <button class="slide-text__more">Подробнее</button>
+            </div>
+            <img src="img/slide1.jpg" alt="slide">
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-text">
+              <p class="slide-text__commnet">Представляю&nbsp;вам&nbsp;новое изделие в коллекцию малых&nbsp;форм:</p>
+              <div class="slide-text__border"></div>
+              <h3 class="slide-text__title">"Цветок лотоса"</h3>
+              <button class="slide-text__more">Подробнее</button>
+            </div>
+            <img src="img/slide2.jpg" alt="slide">
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-text">
+              <p class="slide-text__news">Внимание!<span class="slide-text__news">ПЯТАЯ КНИГА</span>уже в продаже!</p>
+              <div class="slide-text__border"></div>
+              <button class="slide-text__more">Подробнее</button>
+            </div>
+            <img src="img/slide3.jpg" alt="slide">
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+    <!-- /.slider -->
+    <section class="author">
+      <div class="author-block">
+        <img src="img/author.jpg" alt="foto" class="author-block__img">
+        <div class="author-block__text">
+          <h3 class="author-block__title">Ася Вертен</h3>
+          <p class="author-block__subtitle">Дорогие дамы, сеньоры и&nbsp;сеньориты! На&nbsp;этой страничке я&nbsp;буду
+            рассказывать вам о
+            событиях в&nbsp;моей творческой жизни. Теперь
+            это не&nbsp;&laquo;мертвая&raquo; страница, это постоянно обновляющийся материал для вашего сведения
+            и&nbsp;вашего
+            внимания.
+          </p>
+          <a href="#" class="author-block__more">Читать дальше ></a>
+        </div>
+      </div>
+      <div class="author-text-block">
+        <button class="author-text-block__btn-more btn">Обо мне</button>
+        <div class="author-text-block__quote">
+          <p>Суконное с витрины покрывало<br>
+            Откинули — и кружево предстало<br>
+            Узорное, в воздушных пузырьках.<br>
+            Подобье то ли пены, то ли снега.<br>
+            И к воздуху семнадцатого века<br>
+            Припали мы на согнутых руках.<br>
+            <span>(Александр Кушнер)</span></p>
+        </div>
+      </div>
+
+      <img class="author__img" src="img/1.jpg" alt="foto">
+
+      <div class="author-text-block author-text-block__right">
+        <button class="author-text-block__btn-video btn">Видео</button>
+        <div class="author-text-block__quote  bg">
+          <h3 class="author-text-block__title">Мои видео</h3>
+          <p>
+            Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды, чтобы добавить свой
+            текст и
+            настроить шрифт.
+          </p>
+        </div>
+      </div>
+
+      <img class="author__img" src="img/2.jpg" alt="foto">
+      <!-- /.author-text-block -->
+    </section>
+    <!-- author-block -->
+  </div>
+  <!-- container -->
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-nav">
+
+    </div>
+    <div class="footer-bottom">
+      <form class="subscribe-form" method="POST" action="https://asiaverten.com/subscribe/send" required>
+        <label class="subscribe-form__text">Получайте своевременно новости о новых мастер-классах, моделях, скидках на
+          сайте мастера Asia Verten.</label>
+        <input name="_token" type="hidden" value="LtgLLXqdGMV7gqfJm4x4GoyNj3Mz7VPFcuYTRCfB">
+        <input class="subscribe-form__mail form-control" type="email" name="rss_email"
+               placeholder="Введите ваш email..." required>
+        <button class="subscribe-form__btn" type="submit">Подписаться</button>
+      </form>
+      <div class="footer-right-col">
+        <div class="footer-login-block">
+          <a href="#" class="footer-login-block__confidentiality">Политика конфиденциальности</a>
+          <button class="footer-login-block__login">Войти</button>
+          <button class="footer-login-block__registration">Зарегистрироваться</button>
+        </div>
+        <div class="socials">
+          <h3 class="socials__title">Мои социальные сети</h3>
+          <div class="socials__item">
+
+            <a href="https://ok.ru/ekskryuziv" target="_blank" class="social ok"></a>
+            <a href="https://vk.com/id409149375" target="_blank" class="social vk"></a>
+            <a href="https://www.facebook.com/assia.verten" target="_blank" class="social fb"></a>
+            <a href="#" target="_blank" class="social tg"></a>
+            <a href="https://www.instagram.com/asiaverten62" target="_blank" class="social inst"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
